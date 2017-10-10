@@ -2,67 +2,28 @@
 # README.md
 # airsonic/airsonic
 -->
-Airsonic
-========
+Airsonic是一种免费的、基于网络的流媒体转化器，为你的音乐提供了无处不在的方便。使用它与朋友分享你的音乐，或者在工作时听你自己的音乐。你可以同时推流到多个播放器，例如在你的厨房里的一个播放器和你的客厅里的另一个播放器。
 
-What is Airsonic?
------------------
-
-Airsonic is a free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.
-
-Airsonic is designed to handle very large music collections (hundreds of gigabytes). Although optimized for MP3 streaming, it works for any audio or video format that can stream over HTTP, for instance AAC and OGG. By using transcoder plug-ins, Airsonic supports on-the-fly conversion and streaming of virtually any audio format, including WMA, FLAC, APE, Musepack, WavPack and Shorten.
-
-If you have constrained bandwidth, you may set an upper limit for the bitrate of the music streams. Airsonic will then automatically resample the music to a suitable bitrate.
-
-In addition to being a streaming media server, Airsonic works very well as a local jukebox. The intuitive web interface, as well as search and index facilities, are optimized for efficient browsing through large media libraries. Airsonic also comes with an integrated Podcast receiver, with many of the same features as you find in iTunes.
-
-Based on Java technology, Airsonic runs on most platforms, including Windows, Mac, Linux and Unix variants.
-
-![Screenshot](contrib/assets/screenshot.png)
-
-History
------
-
-The original [Subsonic](http://www.subsonic.org/) is developed by [Sindre Mehus](mailto:sindre@activeobjects.no). Subsonic was open source through version 6.0-beta1, and closed-source from then onwards.
-
-Libresonic was created and maintained by [Eugene E. Kashpureff Jr](mailto:eugene@kashpureff.org). It originated as an unofficial("Kang") of Subsonic which did not contain the Licensing code checks present in the official builds. With the announcement of Subsonic's closed-source future, a decision was made to make a full fork and rebrand to Libresonic.
-
-Around July 2017, it was discovered that Eugene had different intentions/goals
-for the project than some contributors had.  Although the developers were
-hesitant to create a fork as it would fracture/confuse the community even
-further, it was deemed necessary in order to preserve a community-focused fork.
-To reiterate this more clearly:
-
-Airsonic's goal is to provide a full-featured, stable, self-hosted media server
-based on the Subsonic codebase that is free, open source, and community driven.
-
-Pull Requests are always welcome. Keep in mind that we strive to balance
-stability with new features. As such, all Pull Requests are reviewed before
-being merged to ensure we continue to meet our goals.
-
-License
--------
-
-Airsonic is free software and licensed under the [GNU General Public License version 3](http://www.gnu.org/copyleft/gpl.html). The code in this repository (and associated binaries) are free of any "license key" or other restrictions. If you wish to thank the maintainer of this repository, please consider a donation to the [Electronic Frontier Foundation](https://supporters.eff.org/donate).
-
-The [Subsonic source code](https://github.com/airsonic/subsonic-svn) was released under the GPLv3 through version 6.0-beta1. Beginning with 6.0-beta2, source is no longer provided. Binaries of Subsonic are only available under a commercial license. There is a [Subsonic Premium](http://www.subsonic.org/pages/premium.jsp) service which adds functionality not available in Airsonic. Subsonic also offers RPM, Deb, Exe, and other pre-built packages that Airsonic [currently does not](https://github.com/airsonic/airsonic/issues/65).
-
-
-Usage
------
-
-Airsonic can be downloaded from
-[GitHub](https://github.com/airsonic/airsonic/releases).
-
-Please use the [Airsonic documentation](https://airsonic.github.io/docs/) for instructions on running Airsonic.
-
-
-Community
----------
-We have several places outside of github for community discussion, questions, etc:
-
-- [#airsonic:matrix.org on Matrix](https://matrix.to/#/#airsonic:matrix.org)
-- [#airsonic on IRC](http://webchat.freenode.net?channels=%23airsonic)
-- [airsonic subreddit](https://www.reddit.com/r/airsonic)
-
-*Note that the Matrix room and IRC channel are bridged together.*
+Airsonic设计用于处理非常大的音乐集合(数百GB)。虽然对MP3流媒体进行了优化，但它适用于任何可以通过HTTP传输的音频或视频格式，例如AAC和OGG。通过使用transcoder插件，Airsonic支持几乎任何音频格式的实时转换和流媒体，包括WMA、FLAC、APE、Musepack、波浪式和缩短。
+如果带宽受限，则可以为音乐流的比特率设置上限。然后Airsonic将自动将音乐重新采样到合适的比特率上。
+除了作为流媒体服务器，Airsonic还很好地发挥了当地的点唱机功能。直观的web界面，以及搜索和索引工具，通过大型媒体库进行高效浏览。Airsonic也有一个集成的播客接收器，与你在iTunes上找到的许多相同的功能。
+基于Java技术，Airsonic在大多数平台上运行，包括Windows、Mac、Linux和Unix变体。
+截图
+历史
+最初的亚音速是由Sindre Mehus开发的。亚音速是通过版本6.0 - beta1的开放源代码，从那时起关闭源代码。
+Libresonic是由Eugene e . Kashpureff Jr .创建并维护的，它最初是亚音速的一个非官方的(“Kang”)，它没有包含官方构建的许可代码检查。随着亚音速的闭源未来的宣布，一个决定被制作成一个完整的fork和rebrand到Libresonic。
+在2017年7月左右，人们发现尤金对这个项目的意图和目标不同于一些贡献者。尽管开发人员犹豫是否要创建一个分支，因为它会进一步破坏/混淆社区，但为了保护以社区为中心的分叉，它被认为是必要的。为了更清楚地重申这一点:
+Airsonic的目标是提供一个功能齐全的、稳定的、自托管的媒体服务器，基于亚音速代码库，它是免费的、开源的和社区驱动的。
+拉请求总是受欢迎的。记住，我们努力平衡稳定与新特性。因此，所有的拉请求都要在合并之前进行审查，以确保我们继续实现我们的目标。
+许可
+Airsonic是自由软件，在GNU通用公共许可证版本3下获得许可。此存储库中的代码(以及相关的二进制文件)没有任何“许可证密钥”或其他限制。如果你想要感谢这个存储库的维护者，请考虑捐赠给电子前沿基金会。
+亚音速源代码是在GPLv3通过版本6.0 - beta1发布的。从6.0 - beta2开始，源不再提供。亚音速的二进制文件只能在商业许可证下使用。有一个亚音速的高级服务，增加了在Airsonic中没有的功能。亚音速还提供RPM、Deb、Exe和Airsonic目前没有的其他预构建包。
+使用
+Airsonic可以从GitHub下载。
+请使用Airsonic文件来说明运行Airsonic的说明。
+群落
+我们在github之外有几个地方进行社区讨论、问题等。
+航空公司:矩阵的矩阵
+#airsonic on IRC
+airsonic subreddit
+注意，矩阵室和IRC通道被连接在一起。
